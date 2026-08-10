@@ -3,17 +3,17 @@
 ## 系统要求
 
 - Windows 10 或 Windows 11，64 位
-- Adobe Photoshop 2026
+- Adobe Photoshop 2024（25.1.0）或更高版本
 - Adobe Creative Cloud Desktop
 
 ## 安装
 
 1. 保存 Photoshop 文档并关闭 Photoshop。
 2. 从 [GitHub Releases](https://github.com/xBADBRUSHx/OP-Pop-Up-HUD/releases/latest) 下载最新的 `OP Pop-Up Setup` 安装包。
-3. 运行安装包；如有提示，选择 Photoshop 2026 的安装目录。
+3. 运行安装包并允许所需的管理员权限；安装程序会通过 Adobe Creative Cloud 的 UPIA 安装插件，不需要选择 Photoshop 目录。
 4. 安装完成后重新启动 Photoshop。
 5. 在 Photoshop 的“增效工具”菜单中打开 `OP Pop-Up HUD`。
-6. 使用购买邮箱和激活码完成激活。
+6. 使用购买邮箱和激活码完成激活，或开始 14 天试用。
 
 如果安装程序提示缺少 Adobe Unified Plugin Installer Agent（UPIA），请安装或修复 [Adobe Creative Cloud Desktop](https://helpx.adobe.com/download-install/apps/download-install-apps/creative-cloud-apps/download-creative-cloud-desktop-app-from-web.html)，然后重新运行 OP Pop-Up HUD 安装包。不要从第三方来源下载 UPIA。
 
@@ -24,6 +24,7 @@
 - `Shift + 鼠标中键` 点击 slot：把当前 Photoshop 画笔分配到该 slot。
 - `Shift + Alt + 鼠标中键` 点击 slot：清空该 slot。
 - 点击已分配的画笔或工具 slot：切换到对应内容。
+- Q HUD 右下角的三个固定按钮依次用于切换画笔/混合器画笔、选择涂抹工具和水平镜像视图。
 - 快捷键、HUD 尺寸、slot 数量及间距可在 `OP Pop-Up HUD` 面板中调整。
 
 OP Pop-Up HUD 不提供主动调节画笔不透明度的控件。

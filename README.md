@@ -11,18 +11,18 @@ Official downloads, user guides, and release notes for OP Pop-Up HUD.
 - [English User Guide](docs/User-Guide.en.md)
 - [产品页面 / Product page](https://badbrush.org/op-popup-hud/)
 
-当前版本 / Current version: **0.1.1**
+当前版本 / Current version: **0.1.8**
 
 安装包 SHA256 / Installer SHA256:
 
 ```text
-00AB9CE9912AD39B8C92648585E8ED839E8B360D1410FC46DE26828CAAFD9831
+4CFA4F8A498AE4158BDCC37B31956E44DA479F207D65823109B1E7B254A85D09
 ```
 
 ## 系统要求 / System Requirements
 
 - Windows 10 or Windows 11, 64-bit
-- Adobe Photoshop 2026
+- Adobe Photoshop 2024 (25.1.0) or later
 - Adobe Creative Cloud Desktop
 
 ## 公开范围 / Public Scope
