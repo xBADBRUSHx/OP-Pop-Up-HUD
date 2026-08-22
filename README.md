@@ -11,12 +11,12 @@ Official downloads, user guides, and release notes for OP Pop-Up HUD.
 - [English User Guide](docs/User-Guide.en.md)
 - [产品页面 / Product page](https://badbrush.org/op-popup-hud/)
 
-当前版本 / Current version: **0.1.8**
+当前版本 / Current version: **0.1.9**
 
 安装包 SHA256 / Installer SHA256:
 
 ```text
-4CFA4F8A498AE4158BDCC37B31956E44DA479F207D65823109B1E7B254A85D09
+92F4CF743264C923586AB0FD3E79FEFDB2F40ED9C4C9AE1C5F36393CB5076F26
 ```
 
 ## 系统要求 / System Requirements

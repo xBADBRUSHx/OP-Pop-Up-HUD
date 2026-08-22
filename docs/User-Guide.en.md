@@ -20,12 +20,13 @@ If the installer reports that Adobe Unified Plugin Installer Agent (UPIA) is mis
 ## Basic Controls
 
 - Hold `Q`: show the OP Pop-Up HUD; release the key to close it.
+- While the HUD is visible, press `Z` to decrease lightness or `X` to increase lightness.
 - Hold `S` and move the mouse or pen horizontally: adjust the current brush size.
 - `Shift + middle-click` a slot: assign the current Photoshop brush to that slot.
 - `Shift + Alt + middle-click` a slot: clear that slot.
 - Click an assigned brush or tool slot: switch to its assigned content.
 - The three fixed buttons at the lower right of the Q HUD switch Brush/Mixer Brush, select Smudge, and mirror the view horizontally.
-- Shortcuts, HUD size, slot count, and spacing can be changed in the `OP Pop-Up HUD` panel.
+- Shortcuts, the whole-number lightness step used for each adjustment (default: 1), HUD size, slot count, and spacing can be changed in the `OP Pop-Up HUD` panel.
 
 OP Pop-Up HUD does not provide an active brush-opacity control.
 
