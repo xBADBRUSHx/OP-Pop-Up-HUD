@@ -1,56 +1,61 @@
-# OP Pop-Up HUD User Guide
+# OP Pop-Up HUD 2.0.0 User Guide
 
-## System Requirements
+For Windows 10/11 64-bit, Photoshop 2024 (25.1.0) or later, and Adobe Creative Cloud Desktop.
 
-- Windows 10 or Windows 11, 64-bit
-- Adobe Photoshop 2024 (25.1.0) or later
-- Adobe Creative Cloud Desktop
+See the [complete Chinese guide](User-Guide.zh-CN.md) or its [offline HTML edition](User-Guide.zh-CN.html) for detailed instructions.
 
-## Installation
+## Install and activate
 
-1. Save your Photoshop documents and close Photoshop.
-2. Download the latest `OP Pop-Up Setup` installer from [GitHub Releases](https://github.com/xBADBRUSHx/OP-Pop-Up-HUD/releases/latest).
-3. Run the installer and allow the requested administrator permission. The installer uses Adobe Creative Cloud UPIA and does not require a Photoshop folder.
-4. Restart Photoshop after installation completes.
-5. Open `OP Pop-Up HUD` from the Photoshop Plugins menu.
-6. Activate the product with your purchase email and activation code, or start the 14-day trial.
+1. **Used a HUD version before 2.0.0?** Download the Cleaner from the [download page](../README.md), extract the entire ZIP, close Photoshop and HUD, then run `Start-Cleanup.cmd` normally. Review the list and enter uppercase `CLEAN`. Continue only after cleanup succeeds. Accept an elevation prompt if the cleaner requests it; keep using the same Windows account.
+2. Save your work, close Photoshop and HUD, and run the 2.0.0 Setup normally. Do not use **Run as administrator**. If Setup offers to replace standalone OK-Record, its recording files are retained.
+3. Open Photoshop, then **Plugins → OP Pop-Up HUD → OP Pop-Up HUD · 设置**. Allow the HUD launch permission when first prompted.
+4. Enter your email and activation code, or enter your email to start the **7-day trial**. Old customers use their original email and code again.
 
-If the installer reports that Adobe Unified Plugin Installer Agent (UPIA) is missing, install or repair [Adobe Creative Cloud Desktop](https://helpx.adobe.com/download-install/apps/download-install-apps/creative-cloud-apps/download-creative-cloud-desktop-app-from-web.html), then run the OP Pop-Up HUD installer again. Do not download UPIA from third-party sources.
+The trial runs for seven consecutive days after it is first claimed. Reinstalling or clearing local activation does not restart it. Initial activation and trial registration require an internet connection.
 
-## Basic Controls
+Migration resets old shortcuts, layouts, and slots while preserving purchase rights, device identity, and artwork. Do not use the legacy cleaner on 2.0.0 or later.
 
-- Hold `Q`: show the OP Pop-Up HUD; release the key to close it.
-- While the HUD is visible, press `Z` to decrease lightness or `X` to increase lightness.
-- Hold `S` and move the mouse or pen horizontally: adjust the current brush size.
-- `Shift + middle-click` a slot: assign the current Photoshop brush to that slot.
-- `Shift + Alt + middle-click` a slot: clear that slot.
-- Click an assigned brush or tool slot: switch to its assigned content.
-- The three fixed buttons at the lower right of the Q HUD switch Brush/Mixer Brush, select Smudge, and mirror the view horizontally.
-- Shortcuts, the whole-number lightness step used for each adjustment (default: 1), HUD size, slot count, and spacing can be changed in the `OP Pop-Up HUD` panel.
+If Setup reports that Adobe UPIA is missing, install or repair [Creative Cloud Desktop](https://helpx.adobe.com/download-install/apps/download-install-apps/creative-cloud-apps/download-creative-cloud-desktop-app-from-web.html), then rerun Setup.
 
-OP Pop-Up HUD does not provide an active brush-opacity control.
+## Default controls
 
-## Automatic Updates
+Keep Photoshop in the foreground and move the pointer over the canvas. Shortcuts can be changed in settings.
 
-When a newer version is available, a blue update icon appears at the upper right of the Q HUD. Click it to start the update flow:
+| Action | Result |
+| --- | --- |
+| Hold **Q** | Open the cursor-near color picker. |
+| Hold **W** | Open brush favorites without changing the current tool. |
+| Press **E / R** | Select Eraser / Smudge; keep holding to open its favorites. |
+| Hold **Z** | Open the command palette. |
+| Press **F** | Restore Normal brush blend mode; keep holding for blend-mode favorites. |
+| Hold **S** and move horizontally | Change brush size. |
+| Hold **S + right mouse button** and move horizontally | Change opacity. |
+| Hold **S + left mouse button** and move vertically | Change brush angle. |
 
-1. The updater asks you to save your Photoshop documents.
-2. It downloads the installer from the BADBRUSH automatic-update service and verifies its SHA256.
-3. After the download completes, close Photoshop and OP Pop-Up.
-4. Click Retry to launch the installer and complete the update.
+Point to a palette slot and release the shortcut to select it, or left-click the slot. Release over the center to cancel. Use **Shift + middle-click** to assign the current brush to a brush slot and **Shift + Alt + middle-click** to clear it. While holding W or Z, press the corresponding group number to switch groups.
 
-The updater does not force-close Photoshop. You can also download and install the latest version manually from GitHub Releases.
+To use A/D for brush size, assign Photoshop's native `[`/`]` commands to A/D in Photoshop's keyboard shortcuts.
 
-## Uninstallation
+## Recording and timers
 
-Uninstall `OP Pop-Up` from Windows Settings > Apps > Installed apps. Uninstallation removes the plugin and startup components but preserves user settings for a future reinstall.
+Set the save folder, sampling interval, and resolution in **Recording & Export (录制与导出)**. Click the Toolbar recording button to start, pause, or resume. **Shift + Alt + left-click** stops recording. Pause or stop before exporting a video. FFmpeg is included; no separate installation is needed.
 
-## Verifying the Installer
+Recording uses 8-bit output. A 16-bit source is converted for recording; 32-bit HDR documents are unsupported. The original document is unchanged.
 
-Each GitHub Release publishes a SHA256 value. Verify a downloaded installer in PowerShell with:
+Click a timer to start, pause, or resume it. **Hold the left mouse button for about half a second** to open its controls, choose a mode, set a countdown, or stop the timer.
+
+## Update, uninstall, and get help
+
+When an update is available, click **NEW** on the Toolbar. After choosing Later, you can return through **Account & Help (账户与帮助)** to install that update. Save your work and close Photoshop and HUD when the updater asks, then click Retry. Normal 2.x updates preserve settings and authorization.
+
+To uninstall, close Photoshop and HUD, then remove **OP Pop-Up** from Windows **Settings → Apps → Installed apps**. Settings, authorization data, and recording files remain for a future reinstall. For same-version repair, run Setup again.
+
+For help, generate a problem report from **Account & Help**, Setup, or the standalone [Report Tool](../README.md). Send the resulting ZIP and a description to **100209743@qq.com**. The tool does not send it automatically or collect artwork.
+
+## Verify the download
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\OP Pop-Up Setup.exe'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\OP-Pop-Up-HUD-Setup-2.0.0.exe'
 ```
 
-The result must exactly match the SHA256 published on the corresponding Release page.
+Compare the result with the SHA-256 on the [download page](../README.md). The current installer is unsigned; check its source and file information before continuing.
