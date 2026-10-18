@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="application-version" content="2.0.0"><meta name="source-sha256" content="f9a78dcc26b508f2d603f41ef4a24d2b7cd85a19d3b85455fd2d3be45f05cc05">
+<meta name="application-version" content="2.0.1"><meta name="source-sha256" content="0119003d374763a7446ef20b9da432c6691aedf49fa36e19567b58fad3f4e765">
 <title>OP Pop-Up HUD 使用指南</title><style>
 :root{color-scheme:light}*{box-sizing:border-box}body{margin:0;background:#f4f5f8;color:#242632;font:16px/1.75 "Segoe UI","Microsoft YaHei UI",sans-serif}main{max-width:900px;margin:32px auto;padding:36px 48px;background:#fff;border-radius:16px}h1{font-size:30px;margin:0 0 16px}h2{font-size:23px;margin:36px 0 12px;border-bottom:1px solid #e7e8ed;padding-bottom:8px}h3{font-size:19px}p{margin:12px 0}li{margin:7px 0}.brand{display:block;max-width:100%;width:280px;height:auto;margin:8px 0 24px}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border-bottom:1px solid #e5e7ec;padding:10px 12px;text-align:left;vertical-align:top}th{background:#f4f5f8}code{padding:2px 5px;background:#f1f2f5;border-radius:4px}a{color:#5b4acb}.table{overflow-x:auto}@media(max-width:650px){main{margin:0;border-radius:0;padding:24px 20px}body{font-size:15px}}
 </style></head><body><main><h1>OP Pop-Up HUD 使用指南</h1>
@@ -8,12 +8,13 @@
 <p>适用于 Windows 64 位与 Photoshop 2024（25.1）及以上版本。</p>
 <h2>安装</h2>
 <ol>
-<li><strong>用过 2.0.0 之前的 HUD</strong>：先关闭 Photoshop 和 HUD，将清理工具 ZIP 全部解压，双击 <code>Start-Cleanup.cmd</code>，核对清单后输入大写 <code>CLEAN</code>。看到“清理完成，按任意键退出”后继续。首次安装可跳过这一步。</li>
-<li>保存作品，退出 Photoshop 和 HUD，双击新版安装程序，按提示安装。如检测到旧版 OK-Record，确认替换；录制功能已并入 HUD，已有录制文件保留。</li>
+<li>保存作品，退出 Photoshop 和 HUD，双击新版安装程序。</li>
+<li>如果检测到 2.0.0 之前的 HUD，按提示确认迁移。安装器会备份并清理旧程序、设置和缓存，再安装新版，无需另外运行清理工具。旧快捷键、布局和槽位会重置；设备身份、购买权益和作品保留，安装后用原邮箱和激活码重新激活。正常 2.x 升级保留设置与授权。</li>
+<li>如果检测到可识别的独立 OK-Record，默认在新版安装成功后移除旧插件；可取消勾选以保留旧版。录制项目、输出和插件数据保留。无法确认身份时会说明原因，不会自动删除。</li>
 <li>打开 Photoshop，选择 <strong>增效工具 → OP Pop-Up HUD → OP Pop-Up HUD · 设置</strong>。首次出现启动 HUD 的权限提示时，选择允许。</li>
 <li>在授权页面输入邮箱，激活正式版或开始试用，然后打开一份绘画文档。</li>
 </ol>
-<p>清理工具和安装程序均直接双击运行。若清理过程中弹出管理员权限提示，按提示允许；不要换用另一个 Windows 账户。</p>
+<p>安装程序直接双击运行。旧版清理需要管理员权限时，按提示允许，不要换用另一个 Windows 账户。迁移未完成时请按提示处理后重试；备份位于 <code>%LOCALAPPDATA%\BADBRUSH\HUD-Migration-Backups</code>。独立清理工具仍可用于手动维护旧版 HUD，不用于清理 2.0.0 或更高版本。</p>
 <p>未激活时，从 <strong>增效工具</strong> 菜单打开的窗口居中显示，只提供授权页面。激活或领取试用后，设置分类、Toolbar 和绘画快捷键解锁；点击 Toolbar 的 <strong>设置</strong>，同一个窗口会在按钮上方展开。Toolbar 隐藏或没有打开文档时，仍可从增效工具菜单进入。</p>
 <h2>激活或试用</h2>
 <div class="table"><table><thead><tr><th>使用方式</th><th>操作</th></tr></thead><tbody>
@@ -37,11 +38,13 @@
 <p>在 W、E、R、Z、F 面板中，指向需要的槽位后松开快捷键即可选择；也可以左键点击应用。指针回到面板中心再松键，可取消选择。</p>
 <p>如需用 A／D 增减笔刷大小，可在 Photoshop 的键盘快捷键中，将原生 <code>[</code>／<code>]</code> 对应功能改绑到 A／D。</p>
 <p>将当前笔刷存入收藏：先在 Photoshop 选好笔刷，按住 W 打开面板，在目标槽位 <strong>Shift + 中键点击</strong>。清空槽位使用 <strong>Shift + Alt + 中键点击</strong>。</p>
+<p>Toolbar 的前景色或背景色图标支持 <strong>Alt + 左键重置前后景色</strong>、<strong>Shift + 左键调换前后景色</strong>，效果分别与 Photoshop 的 D、X 相同。双击前景色仍可打开 Photoshop 拾色器。</p>
 <h2>整理 Toolbar 和命令面板</h2>
 <ul>
 <li><strong>调整顺序</strong>：在 Toolbar 的工具上按住中键，拖到新位置后松开。</li>
 <li><strong>收起工具</strong>：将工具中键拖出 Toolbar。需要恢复时，点击 <strong>…</strong> 打开收纳菜单，再把工具拖回。</li>
 <li><strong>设置命令面板槽位</strong>：按住 Z，在目标槽位 <strong>Shift + 中键点击</strong>，选择需要的工具或命令；也可在 <strong>命令与工具栏</strong> 设置中修改。</li>
+<li><strong>添加颜色命令</strong>：在槽位的命令列表中选择 <strong>编辑 → 重置前后景色／调换前后景色</strong>。</li>
 <li><strong>新增 Toolbar 槽位</strong>：在 <strong>命令与工具栏 → 工具栏槽位</strong> 点击 <strong>添加工具栏槽位</strong>，保存成功后即可为新槽位选择工具或命令。</li>
 <li><strong>切换分组</strong>：按住 Z 时按 <strong>1–3</strong>；按住 W 时按对应的 <strong>1–5</strong>，切换已启用的分组。</li>
 </ul>
@@ -68,7 +71,7 @@
 <ol>
 <li>有新版本时，Toolbar 右侧显示蓝色 <strong>NEW</strong>。点击后选择 <strong>安装更新…</strong> 或 <strong>稍后提醒</strong>。</li>
 <li>选择 <strong>稍后提醒</strong> 后，NEW 消失，重启也不会再次提示这个版本。以后可打开 <strong>设置 → 账户与帮助</strong>，点击 <strong>安装更新…</strong>。</li>
-<li>选择 <strong>安装更新…</strong> 后，按更新器提示操作。提示关闭 Photoshop 时，先保存作品并退出 Photoshop 和 HUD，再点击 <strong>重试</strong>，完成安装。</li>
+<li>选择 <strong>安装更新…</strong>，等待下载和校验完成。安装器提示关闭 Photoshop 时，先保存作品并退出 Photoshop，再按提示继续安装。</li>
 </ol>
 <p>没有可用更新时，NEW 和设置中的版本更新区域都不显示。2.0.0 之后的正常更新保留当前设置与授权，不需要运行旧版清理工具。</p>
 <h2>卸载与重装</h2>
@@ -80,14 +83,14 @@
 <div class="table"><table><thead><tr><th>情况</th><th>处理方式</th></tr></thead><tbody>
 <tr><td>找不到设置入口</td><td>确认 Photoshop 为 25.1 及以上，重启 Photoshop，再检查“增效工具”菜单。</td></tr>
 <tr><td>快捷键没有反应</td><td>检查授权状态，让 Photoshop 处于前台，退出文字输入或弹窗，再将指针移回画布。</td></tr>
-<tr><td>更新提示程序仍在运行</td><td>保存作品，退出所有 Photoshop 和 HUD 窗口，再点击更新器的“重试”。</td></tr>
+<tr><td>更新提示程序仍在运行</td><td>保存作品，退出所有 Photoshop 和 HUD 窗口，按安装器提示继续；若已退出安装器，重新运行下载好的安装包。</td></tr>
 <tr><td>清理工具显示“未完成”</td><td>按提示处理；仍无法完成时，将提示截图发给作者核实后再安装。</td></tr>
 <tr><td>提示达到设备上限</td><td>联系卖家处理设备名额。清除本机激活不会释放服务器设备名额。</td></tr>
 <tr><td>需要离线激活</td><td>在账户页切到 <strong>离线与其他选项</strong>（已激活时为 <strong>管理授权</strong>），将机器码提供给卖家，收到授权文件后点击 <strong>导入离线授权文件</strong>。</td></tr>
 </tbody></table></div>
 <h2>补充说明</h2>
 <ul>
-<li>从旧版升级到 2.0.0 时，旧快捷键、布局和槽位配置全部重置；购买权益、设备身份和用户作品保留。之后同代更新保留新配置。</li>
+<li>从 2.0.0 之前的旧版升级到新版时，旧快捷键、布局和槽位配置全部重置；购买权益、设备身份和用户作品保留。之后同代更新保留新配置。</li>
 <li>授权会在联网时自动刷新。长期离线超过授权凭证有效期后，请联网打开设置；购买权益不会因为清理旧版而丢失。</li>
 <li>安装包暂未做 Windows 代码签名，首次运行可能出现系统提示。请核对下载来源和文件信息后再继续。</li>
 <li>报错时请提供提示截图、Photoshop 版本以及出问题前的操作；不要在公开截图中展示激活码。</li>
