@@ -16,7 +16,7 @@ The trial runs for seven consecutive days after it is first claimed. Reinstallin
 
 Migration from before 2.0.0 resets old shortcuts, layouts, and slots while preserving purchase rights, device identity, and artwork. Normal 2.x updates retain settings and authorization. Migration backups are saved in `%LOCALAPPDATA%\BADBRUSH\HUD-Migration-Backups`. The standalone Cleaner remains available for manual maintenance of older HUD installations; do not use it on 2.0.0 or later.
 
-If Setup reports that Adobe UPIA is missing, install or repair [Creative Cloud Desktop](https://helpx.adobe.com/download-install/apps/download-install-apps/creative-cloud-apps/download-creative-cloud-desktop-app-from-web.html), then rerun Setup.
+Prerequisite and migration errors support text selection, Ctrl+A and Ctrl+C. If Adobe UPIA is missing, click **Open Creative Cloud download page**, install or repair [Creative Cloud Desktop](https://helpx.adobe.com/download-install/apps/download-install-apps/creative-cloud-apps/download-creative-cloud-desktop-app-from-web.html), then rerun Setup.
 
 If Adobe reports **-631**, sign in to Creative Cloud Desktop and retry. **-629** means permission was not granted: retry and complete any Windows or Adobe permission prompt. **-630** means the permission prompt timed out: check for a pending Windows or Creative Cloud prompt; if none appeared, generate a problem report.
 

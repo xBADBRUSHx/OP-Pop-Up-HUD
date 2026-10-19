@@ -109,7 +109,9 @@ Toolbar 的前景色或背景色图标支持 **Alt + 左键重置前后景色**�
 **打开报告位置**，将选中的 ZIP 发到 **100209743@qq.com**，简单说明问题；
 如有报错截图，请一并发送。
 
-安装出错时，错误页面会显示 **生成问题报告**；正常安装页面不显示该按钮。插件打不开或安装器已退出时，可解压[独立报告工具](https://downloads.badbrush.org/op-popup-hud/2.0.1/installer-20261020/OP-Pop-Up-HUD-Report-20261020.zip)，双击 **OP Pop-Up Report.exe**。无需启动 Photoshop，不收集作品，不会自动发送。
+安装前检查或迁移报错时，可选中错误说明与网址并复制（Ctrl+A 全选，Ctrl+C 复制）。缺少 Adobe 安装组件时，点击 **打开 Creative Cloud 下载页**，安装或修复后重试。
+
+安装出错时，错误页面会显示 **生成问题报告**；正常安装页面不显示该按钮。插件打不开或安装器已退出时，可解压[独立报告工具](https://downloads.badbrush.org/op-popup-hud/2.0.1/installer-20261020-r3/OP-Pop-Up-HUD-Report-20261020.zip)，双击 **OP Pop-Up Report.exe**。无需启动 Photoshop，不收集作品，不会自动发送。
 
 报告包含可获取的安装、迁移与 Adobe 日志，以及采集报告时的权限信息，并对敏感字段脱敏。
 

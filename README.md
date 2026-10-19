@@ -10,16 +10,16 @@ A Photoshop painting HUD for color, brush presets, tools, brush controls, record
 
 | 文件 / File | 用途 / Use |
 | --- | --- |
-| [OP Pop-Up HUD 2.0.1 Setup](https://downloads.badbrush.org/op-popup-hud/2.0.1/installer-20261020/OP-Pop-Up-HUD-Setup-2.0.1.exe) | 2026-10-20 安装器修订，已集成旧版迁移 / Installer revision dated 2026-10-20, with legacy migration included |
+| [OP Pop-Up HUD 2.0.1 Setup](https://downloads.badbrush.org/op-popup-hud/2.0.1/installer-20261020-r3/OP-Pop-Up-HUD-Setup-2.0.1.exe) | 2026-10-20 R3 安装器修订，已集成旧版迁移 / Installer revision dated 2026-10-20 R3, with legacy migration included |
 | [Pre-2.0.0 Cleaner 2.0.3](https://downloads.badbrush.org/op-popup-hud/2.0.0/OP-Pop-Up-HUD-Pre-2.0.0-Cleanup-2.0.3.zip) | 历史独立维护工具；正常安装无需运行 / Historical standalone maintenance tool; not required for normal installation |
-| [Report Tool 2026-10-20](https://downloads.badbrush.org/op-popup-hud/2.0.1/installer-20261020/OP-Pop-Up-HUD-Report-20261020.zip) | 独立诊断工具，包含 Adobe 安装日志和权限信息 / Standalone diagnostics, including Adobe installation logs and permission context |
+| [Report Tool 2026-10-20](https://downloads.badbrush.org/op-popup-hud/2.0.1/installer-20261020-r3/OP-Pop-Up-HUD-Report-20261020.zip) | 独立诊断工具，包含 Adobe 安装日志和权限信息 / Standalone diagnostics, including Adobe installation logs and permission context |
 
-安装包 / Installer: **18,991,814 bytes**
+安装包 / Installer: **18,992,543 bytes**
 
 SHA-256:
 
 ```text
-d06e8fe31c9e090997fb946c50b67e6bcd05b7f7a3da965299b17a9fe0681bd3
+a243cc439ee524f7c2f0ec15b3fccb912f2f267a4b1a98304d051f4de3ef4fa9
 ```
 
 [GitHub Releases](https://github.com/xBADBRUSHx/OP-Pop-Up-HUD/releases) · [产品页面 / Product page](https://badbrush.org/op-popup-hud/)
