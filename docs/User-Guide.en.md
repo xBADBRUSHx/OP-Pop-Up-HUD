@@ -6,7 +6,7 @@ See the [complete Chinese guide](User-Guide.zh-CN.md) or its [offline HTML editi
 
 ## Install and activate
 
-1. Save your work, close Photoshop and HUD, and run the 2.0.1 Setup normally. Do not use **Run as administrator**.
+1. Save your work, close Photoshop and HUD, and double-click the 2.0.1 Setup. Installation belongs to the current Windows account; administrator privileges alone are not rejected. Keep using the same Windows account if a permission prompt appears.
 2. **Used a HUD version before 2.0.0?** Confirm migration when prompted. Setup backs up and cleans the old installation before continuing; you normally do not need the standalone Cleaner. Accept an elevation prompt if requested and keep using the same Windows account.
 3. If Setup detects a recognized standalone OK-Record installation (verified versions: **1.0.9 and 1.0.15**), removal after a successful HUD installation is selected by default. Clear the checkbox to keep it. Recording projects, output, plugin data, and backups remain.
 4. Open Photoshop, then **Plugins → OP Pop-Up HUD → OP Pop-Up HUD · 设置**. Allow the HUD launch permission when first prompted.
@@ -17,6 +17,8 @@ The trial runs for seven consecutive days after it is first claimed. Reinstallin
 Migration from before 2.0.0 resets old shortcuts, layouts, and slots while preserving purchase rights, device identity, and artwork. Normal 2.x updates retain settings and authorization. Migration backups are saved in `%LOCALAPPDATA%\BADBRUSH\HUD-Migration-Backups`. The standalone Cleaner remains available for manual maintenance of older HUD installations; do not use it on 2.0.0 or later.
 
 If Setup reports that Adobe UPIA is missing, install or repair [Creative Cloud Desktop](https://helpx.adobe.com/download-install/apps/download-install-apps/creative-cloud-apps/download-creative-cloud-desktop-app-from-web.html), then rerun Setup.
+
+If Adobe reports **-631**, sign in to Creative Cloud Desktop and retry. **-629** means permission was not granted: retry and complete any Windows or Adobe permission prompt. **-630** means the permission prompt timed out: check for a pending Windows or Creative Cloud prompt; if none appeared, generate a problem report.
 
 ## Default controls
 
@@ -55,7 +57,9 @@ When an update is available, click **NEW** on the Toolbar. After choosing Later,
 
 To uninstall, close Photoshop and HUD, then remove **OP Pop-Up** from Windows **Settings → Apps → Installed apps**. Settings, authorization data, and recording files remain for a future reinstall. For same-version repair, run Setup again.
 
-For help, generate a problem report from **Account & Help**, Setup, or the standalone [Report Tool](../README.md). Send the resulting ZIP and a description to **100209743@qq.com**. The tool does not send it automatically or collect artwork.
+The installer revision dated **2026-10-20** retains plugin version **2.0.1** and its existing features. A working 2.0.1 installation does not need reinstalling, and this revision does not trigger a same-version update notification. If installation previously failed, retry with the revised Setup.
+
+For help, generate a problem report from **Account & Help**, a Setup error page, or the standalone [Report Tool](../README.md). Setup shows the report button only on error pages. Reports include available Adobe installation logs and permission context with sensitive fields redacted. Send the resulting ZIP and a description to **100209743@qq.com**. The tool does not send it automatically or collect artwork.
 
 ## Verify the download
 

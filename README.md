@@ -10,19 +10,23 @@ A Photoshop painting HUD for color, brush presets, tools, brush controls, record
 
 | 文件 / File | 用途 / Use |
 | --- | --- |
-| [OP Pop-Up HUD 2.0.1 Setup](https://downloads.badbrush.org/op-popup-hud/2.0.1/OP-Pop-Up-HUD-Setup-2.0.1.exe) | 正式安装包，已集成旧版迁移 / Main installer, with legacy migration included |
+| [OP Pop-Up HUD 2.0.1 Setup](https://downloads.badbrush.org/op-popup-hud/2.0.1/installer-20261020/OP-Pop-Up-HUD-Setup-2.0.1.exe) | 2026-10-20 安装器修订，已集成旧版迁移 / Installer revision dated 2026-10-20, with legacy migration included |
 | [Pre-2.0.0 Cleaner 2.0.3](https://downloads.badbrush.org/op-popup-hud/2.0.0/OP-Pop-Up-HUD-Pre-2.0.0-Cleanup-2.0.3.zip) | 历史独立维护工具；正常安装无需运行 / Historical standalone maintenance tool; not required for normal installation |
-| [Report Tool 1.0.0](https://downloads.badbrush.org/op-popup-hud/2.0.0/OP-Pop-Up-HUD-Report-1.0.0.zip) | 2.0.0 配套独立报告工具 / Standalone report tool published with 2.0.0 |
+| [Report Tool 2026-10-20](https://downloads.badbrush.org/op-popup-hud/2.0.1/installer-20261020/OP-Pop-Up-HUD-Report-20261020.zip) | 独立诊断工具，包含 Adobe 安装日志和权限信息 / Standalone diagnostics, including Adobe installation logs and permission context |
 
-安装包 / Installer: **19,072,680 bytes**
+安装包 / Installer: **18,991,814 bytes**
 
 SHA-256:
 
 ```text
-536acb2a1cfd12c42360701b186a3de9db1c162797f9628117078d6e0aa2ea30
+d06e8fe31c9e090997fb946c50b67e6bcd05b7f7a3da965299b17a9fe0681bd3
 ```
 
 [GitHub Releases](https://github.com/xBADBRUSHx/OP-Pop-Up-HUD/releases) · [产品页面 / Product page](https://badbrush.org/op-popup-hud/)
+
+本次仅修订安装器和诊断工具，插件版本仍为 **2.0.1**。已安装且使用正常的用户无需重复安装；此前安装失败的用户可下载本次修订重试。同版本不会弹出新版本提醒。
+
+This revision changes the installer and diagnostics only; the plugin remains **2.0.1**. Existing users with a working installation do not need to reinstall. If installation previously failed, retry with this revision. There is no new-version notification for the same version.
 
 ## 安装与迁移 / Install and migrate
 
@@ -52,9 +56,9 @@ For recognized standalone OK-Record installations (verified versions: 1.0.9 and 
 
 ## 支持 / Support
 
-在 **设置 → 账户与帮助** 点击 **生成问题报告**；插件打不开时，可使用 Setup 中的报告入口或上面的独立 Report Tool。将生成的 ZIP 发到 **100209743@qq.com** 并说明问题。报告工具不会自动发送。
+在 **设置 → 账户与帮助** 点击 **生成问题报告**；安装出错时，Setup 的错误页面会显示该按钮，正常页面不显示。插件打不开时，也可使用上面的独立 Report Tool。将生成的 ZIP 发到 **100209743@qq.com** 并说明问题。报告工具不会自动发送。
 
-Create a report from **Account & Help (账户与帮助)**, Setup, or the standalone Report Tool. Send its ZIP and a short description to **100209743@qq.com**. The tool does not send reports automatically.
+Create a report from **Account & Help (账户与帮助)**, a Setup error page, or the standalone Report Tool. Setup shows the report button only when an error occurs. Send its ZIP and a short description to **100209743@qq.com**. The tool does not send reports automatically.
 
 ## 公开范围 / Public scope
 
