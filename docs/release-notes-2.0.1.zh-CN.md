@@ -1,35 +1,11 @@
 # OP Pop-Up HUD 2.0.1
 
-首次发布日期：2026-10-18。安装器修订：2026-10-20 R4。
+- 新增前后景色重置与调换命令；Alt + 左键重置，Shift + 左键调换。
+- 修复安装、旧版升级和部分 Photoshop 原生图标问题。
+- 安装失败时可直接生成问题报告，错误说明支持选中复制。
 
-## 2026-10-20 R4 安装器修订
+安装前请关闭 Photoshop，并登录 Adobe Creative Cloud。直接运行安装包，按提示完成安装或旧版迁移，无需先卸载或单独清理。
 
-- 修复部分旧版笔刷缓存缩略图被误认为未知图片、导致迁移停止的问题；作品、录制输出和无法确认用途的文件仍受保护。
-- 合并安装与卸载的数据保全流程、HUD 与 OK-Record 的 Adobe 调用及旧版清理完成判定，保留失败后的备份与重试能力。
-- 无法自动移除的 OK-Record 改在安装摘要中说明保留原因，减少无可选操作的页面。
-- 安装日志标明修订版本；OK-Record 清理中的备份失败、文件冲突等具体原因也进入脱敏问题报告。
-- 继续使用已验收的 R3 插件包，插件版本仍为 2.0.1。使用正常的 2.0.1 用户无需重装；此前安装失败的用户直接运行 R4，无需预先手动卸载或清理。
+已正常使用 2.0.1 的用户无需重装；此前安装失败的用户请下载当前安装包重试。
 
-[下载 R4 安装器](https://downloads.badbrush.org/op-popup-hud/2.0.1/installer-20261020-r4/OP-Pop-Up-HUD-Setup-2.0.1.exe) · [独立诊断工具](https://downloads.badbrush.org/op-popup-hud/2.0.1/installer-20261020-r4/OP-Pop-Up-HUD-Report-20261020.zip) · [最新版用户指南](https://downloads.badbrush.org/op-popup-hud/2.0.1/installer-20261020-r4/docs/user-guide.zh-CN.html)
-
-## 2026-10-20 R3 安装器修订
-
-- 安装前检查或迁移失败时，错误说明与网址可选中复制；缺少 Adobe 安装组件时提供“打开 Creative Cloud 下载页”按钮。
-- 移除对管理员权限的一律拦截，继续按当前 Windows 账户安装；卸载核对当前账户的安装归属。通常直接双击运行即可。
-- 完善旧版迁移失败处理：Adobe 插件卸载失败时停止后续清理，保留备份。明确区分 Creative Cloud 未登录（-631）、权限未获批准（-629）和权限提示超时（-630）。超时不代表用户一定看到了或拒绝了提示。
-- 安装器仅在错误页面显示“生成问题报告”；设置中的报告入口仍保留。新版独立报告工具补齐 Adobe 日志、中文错误上下文和权限信息，并进行脱敏。
-- 插件功能、版本和已验收的运行文件未变。已安装 2.0.1 且使用正常的用户无需重复安装，也不会收到同版本更新提示；此前安装失败的用户可下载修订版重试。
-- 历史独立 Cleaner 2.0.3 未随本次更新，正常安装使用新版 Setup 内置的迁移功能。
-
-[下载安装器修订版](https://downloads.badbrush.org/op-popup-hud/2.0.1/installer-20261020-r3/OP-Pop-Up-HUD-Setup-2.0.1.exe) · [独立诊断工具](https://downloads.badbrush.org/op-popup-hud/2.0.1/installer-20261020-r3/OP-Pop-Up-HUD-Report-20261020.zip) · [最新版用户指南](https://downloads.badbrush.org/op-popup-hud/2.0.1/installer-20261020-r3/docs/user-guide.zh-CN.html)
-
-## 2.0.1 功能更新
-
-- 新增“重置前后景色”和“调换前后景色”快捷命令。Toolbar 前后景色图标支持 Alt + 左键重置、Shift + 左键调换。
-- 安装器集成旧版 OP Pop-Up 迁移。检测到已识别的 2.0 之前版本时，确认后自动备份、清理并继续安装；通常无需单独运行清理工具。
-- 扩展独立 OK-Record 的识别，支持已验证的 1.0.9 和 1.0.15 安装包。HUD 安装成功后可选择卸载已识别的旧插件，保留录制数据和备份。
-- 简化安装和更新：无需提供旧安装包；相同完整版本无需重复卸载，损坏时可直接修复。更新显示下载进度，安装器统一提示关闭 Photoshop。
-- 调整首次使用的 Toolbar 默认布局和分组；快捷工具/命令面板初始为空，可按需要添加。已有设置保持不变。
-- 修正涂抹等 Photoshop 原生图标的细节显示，以及 Photoshop 2024、2025 的部分图标兼容性。
-
-2.x 用户直接升级即可。跨代迁移会重置旧版配置，但保留授权设备身份和作品；如需重新激活，使用原邮箱和激活码。
+[下载 2.0.1](https://github.com/xBADBRUSHx/OP-Pop-Up-HUD/releases/download/v2.0.1/OP-Pop-Up-HUD-Setup-2.0.1.exe) · [使用指南](https://github.com/xBADBRUSHx/OP-Pop-Up-HUD/blob/main/docs/User-Guide.zh-CN.md)
