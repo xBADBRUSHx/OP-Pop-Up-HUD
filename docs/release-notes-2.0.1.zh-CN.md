@@ -1,6 +1,16 @@
 # OP Pop-Up HUD 2.0.1
 
-首次发布日期：2026-10-18。安装器修订：2026-10-20 R3。
+首次发布日期：2026-10-18。安装器修订：2026-10-20 R4。
+
+## 2026-10-20 R4 安装器修订
+
+- 修复部分旧版笔刷缓存缩略图被误认为未知图片、导致迁移停止的问题；作品、录制输出和无法确认用途的文件仍受保护。
+- 合并安装与卸载的数据保全流程、HUD 与 OK-Record 的 Adobe 调用及旧版清理完成判定，保留失败后的备份与重试能力。
+- 无法自动移除的 OK-Record 改在安装摘要中说明保留原因，减少无可选操作的页面。
+- 安装日志标明修订版本；OK-Record 清理中的备份失败、文件冲突等具体原因也进入脱敏问题报告。
+- 继续使用已验收的 R3 插件包，插件版本仍为 2.0.1。使用正常的 2.0.1 用户无需重装；此前安装失败的用户直接运行 R4，无需预先手动卸载或清理。
+
+[下载 R4 安装器](https://downloads.badbrush.org/op-popup-hud/2.0.1/installer-20261020-r4/OP-Pop-Up-HUD-Setup-2.0.1.exe) · [独立诊断工具](https://downloads.badbrush.org/op-popup-hud/2.0.1/installer-20261020-r4/OP-Pop-Up-HUD-Report-20261020.zip) · [最新版用户指南](https://downloads.badbrush.org/op-popup-hud/2.0.1/installer-20261020-r4/docs/user-guide.zh-CN.html)
 
 ## 2026-10-20 R3 安装器修订
 

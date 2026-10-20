@@ -10,23 +10,23 @@ A Photoshop painting HUD for color, brush presets, tools, brush controls, record
 
 | 文件 / File | 用途 / Use |
 | --- | --- |
-| [OP Pop-Up HUD 2.0.1 Setup](https://downloads.badbrush.org/op-popup-hud/2.0.1/installer-20261020-r3/OP-Pop-Up-HUD-Setup-2.0.1.exe) | 2026-10-20 R3 安装器修订，已集成旧版迁移 / Installer revision dated 2026-10-20 R3, with legacy migration included |
+| [OP Pop-Up HUD 2.0.1 Setup](https://downloads.badbrush.org/op-popup-hud/2.0.1/installer-20261020-r4/OP-Pop-Up-HUD-Setup-2.0.1.exe) | 2026-10-20 R4 安装器修订，已集成旧版迁移 / Installer revision dated 2026-10-20 R4, with legacy migration included |
 | [Pre-2.0.0 Cleaner 2.0.3](https://downloads.badbrush.org/op-popup-hud/2.0.0/OP-Pop-Up-HUD-Pre-2.0.0-Cleanup-2.0.3.zip) | 历史独立维护工具；正常安装无需运行 / Historical standalone maintenance tool; not required for normal installation |
-| [Report Tool 2026-10-20](https://downloads.badbrush.org/op-popup-hud/2.0.1/installer-20261020-r3/OP-Pop-Up-HUD-Report-20261020.zip) | 独立诊断工具，包含 Adobe 安装日志和权限信息 / Standalone diagnostics, including Adobe installation logs and permission context |
+| [Report Tool 2026-10-20](https://downloads.badbrush.org/op-popup-hud/2.0.1/installer-20261020-r4/OP-Pop-Up-HUD-Report-20261020.zip) | 独立诊断工具，包含 Adobe 安装日志和权限信息 / Standalone diagnostics, including Adobe installation logs and permission context |
 
-安装包 / Installer: **18,992,543 bytes**
+安装包 / Installer: **18,992,843 bytes**
 
 SHA-256:
 
 ```text
-a243cc439ee524f7c2f0ec15b3fccb912f2f267a4b1a98304d051f4de3ef4fa9
+4c6e0614a5006711e1ee7071d15d83370894cdcbfc59e97509912707f2b4e8cf
 ```
 
 [GitHub Releases](https://github.com/xBADBRUSHx/OP-Pop-Up-HUD/releases) · [产品页面 / Product page](https://badbrush.org/op-popup-hud/)
 
-本次仅修订安装器和诊断工具，插件版本仍为 **2.0.1**。已安装且使用正常的用户无需重复安装；此前安装失败的用户可下载本次修订重试。同版本不会弹出新版本提醒。
+本次修正旧版笔刷缩略图导致的迁移受阻，整理安装、升级、卸载和旧版清理流程，并完善失败报告；插件版本仍为 **2.0.1**。已安装且使用正常的用户无需重复安装；此前安装失败的用户可下载本次修订重试。同版本不会弹出新版本提醒。
 
-This revision changes the installer and diagnostics only; the plugin remains **2.0.1**. Existing users with a working installation do not need to reinstall. If installation previously failed, retry with this revision. There is no new-version notification for the same version.
+This revision fixes migration blocked by legacy brush thumbnails, consolidates installation, upgrade, uninstall and legacy cleanup, and improves failure reports. The plugin remains **2.0.1**. Existing users with a working installation do not need to reinstall. If installation previously failed, retry with this revision. There is no new-version notification for the same version.
 
 ## 安装与迁移 / Install and migrate
 
