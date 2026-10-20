@@ -1,24 +1,20 @@
-# OP Pop-Up HUD 2.0.1 User Guide
+# OP Pop-Up HUD 2.0.2 User Guide
 
-For Windows 10/11 64-bit, Photoshop 2024 (25.1.0) or later, and Adobe Creative Cloud Desktop.
+For Windows 10/11 64-bit and Photoshop 2024 (25.1) or later.
 
-See the [complete Chinese guide](User-Guide.zh-CN.md) or its [offline HTML edition](User-Guide.zh-CN.html) for detailed instructions.
+See the [complete Chinese guide](User-Guide.zh-CN.md) for detailed instructions.
 
 ## Install and activate
 
-1. Save your work, close Photoshop and HUD, and double-click the 2.0.1 Setup. Installation belongs to the current Windows account; administrator privileges alone are not rejected. Keep using the same Windows account if a permission prompt appears.
-2. **Used a HUD version before 2.0.0?** Confirm migration when prompted. Setup backs up and cleans the old installation before continuing; you normally do not need the standalone Cleaner. Accept an elevation prompt if requested and keep using the same Windows account.
-3. If Setup detects a recognized standalone OK-Record installation (verified versions: **1.0.9 and 1.0.15**), removal after a successful HUD installation is selected by default. Clear the checkbox to keep it. Recording projects, output, plugin data, and backups remain.
-4. Open Photoshop, then **Plugins → OP Pop-Up HUD → OP Pop-Up HUD · 设置**. Allow the HUD launch permission when first prompted.
-5. Enter your email and activation code, or enter your email to start the **7-day trial**. Old customers use their original email and code again.
+1. Save your work, close Photoshop and HUD, and run Setup.
+2. Open Photoshop, then **Plugins → OP Pop-Up HUD → OP Pop-Up HUD · 设置**. Allow the HUD launch permission when prompted.
+3. Enter your email and activation code, or enter your email to start the **7-day trial**.
 
 The trial runs for seven consecutive days after it is first claimed. Reinstalling or clearing local activation does not restart it. Initial activation and trial registration require an internet connection.
 
-Migration from before 2.0.0 resets old shortcuts, layouts, and slots while preserving purchase rights, device identity, and artwork. Normal 2.x updates retain settings and authorization. Migration backups are saved in `%LOCALAPPDATA%\BADBRUSH\HUD-Migration-Backups`. The standalone Cleaner remains available for manual maintenance of older HUD installations; do not use it on 2.0.0 or later.
+Setup automatically handles old programs and installation remnants. Existing settings and authorization are preserved. Creative Cloud installation or sign-in is not required. There is no need to uninstall first or run the standalone cleaner.
 
-Prerequisite and migration errors support text selection, Ctrl+A and Ctrl+C. If Adobe UPIA is missing, click **Open Creative Cloud download page**, install or repair [Creative Cloud Desktop](https://helpx.adobe.com/download-install/apps/download-install-apps/creative-cloud-apps/download-creative-cloud-desktop-app-from-web.html), then rerun Setup.
-
-If Adobe reports **-631**, sign in to Creative Cloud Desktop and retry. **-629** means permission was not granted: retry and complete any Windows or Adobe permission prompt. **-630** means the permission prompt timed out: check for a pending Windows or Creative Cloud prompt; if none appeared, generate a problem report.
+Keep using the same Windows account during installation and any permission prompt.
 
 ## Default controls
 
@@ -57,14 +53,6 @@ When an update is available, click **NEW** on the Toolbar. After choosing Later,
 
 To uninstall, close Photoshop and HUD, then remove **OP Pop-Up** from Windows **Settings → Apps → Installed apps**. Settings, authorization data, and recording files remain for a future reinstall. For same-version repair, run Setup again.
 
-The installer revision dated **2026-10-20** retains plugin version **2.0.1** and its existing features. A working 2.0.1 installation does not need reinstalling, and this revision does not trigger a same-version update notification. If installation previously failed, retry with the revised Setup.
+For help, generate a problem report from **Account & Help** or a Setup error page. Send the ZIP and a description to **100209743@qq.com**. The report is not sent automatically and does not collect artwork.
 
-For help, generate a problem report from **Account & Help**, a Setup error page, or the standalone [Report Tool](../README.md). Setup shows the report button only on error pages. Reports include available Adobe installation logs and permission context with sensitive fields redacted. Send the resulting ZIP and a description to **100209743@qq.com**. The tool does not send it automatically or collect artwork.
-
-## Verify the download
-
-```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\OP-Pop-Up-HUD-Setup-2.0.1.exe'
-```
-
-Compare the result with the SHA-256 on the [download page](../README.md). The current installer is unsigned; check its source and file information before continuing.
+The [standalone cleaner](Legacy-Cleanup.zh-CN.md) is for manual maintenance. Normal installation and updates do not require it. It preserves settings, authorization, brushes, and recordings by default.
