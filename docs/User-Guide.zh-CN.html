@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="application-version" content="2.0.2"><meta name="source-sha256" content="11c90ff73e4b6372733dc424b13e36bf16f0b99ca8a5193769db2278629eefe4">
+<meta name="application-version" content="2.0.3"><meta name="source-sha256" content="40e28b08ffd8e33bd64f69a89e0484eeb89d78d3fc0745266f8ee964391eff89">
 <title>OP Pop-Up HUD 使用指南</title><style>
 :root{color-scheme:light}*{box-sizing:border-box}body{margin:0;background:#f4f5f8;color:#242632;font:16px/1.75 "Segoe UI","Microsoft YaHei UI",sans-serif}main{max-width:900px;margin:32px auto;padding:36px 48px;background:#fff;border-radius:16px}h1{font-size:30px;margin:0 0 16px}h2{font-size:23px;margin:36px 0 12px;border-bottom:1px solid #e7e8ed;padding-bottom:8px}h3{font-size:19px}p{margin:12px 0}li{margin:7px 0}.brand{display:block;max-width:100%;width:280px;height:auto;margin:8px 0 24px}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border-bottom:1px solid #e5e7ec;padding:10px 12px;text-align:left;vertical-align:top}th{background:#f4f5f8}code{padding:2px 5px;background:#f1f2f5;border-radius:4px}a{color:#5b4acb}.table{overflow-x:auto}@media(max-width:650px){main{margin:0;border-radius:0;padding:24px 20px}body{font-size:15px}}
 </style></head><body><main><h1>OP Pop-Up HUD 使用指南</h1>
@@ -20,6 +20,7 @@
 <tr><td>先试用</td><td>只填邮箱，点击 <strong>开始试用</strong>，全部功能开放。</td></tr>
 <tr><td>试用后购买或更换激活码</td><td>切到 <strong>管理授权</strong>，填写邮箱和新激活码，点击 <strong>激活正式版</strong>，无需重装或先清除原授权。</td></tr>
 </tbody></table></div>
+<p>正式版显示激活状态；试用版显示试用结束的本地日期和时间。</p>
 <p>首次激活和领取试用需要联网。试用从首次领取成功起连续计算 7 天，重装、清除本机激活或重复领取都不会重新计时。</p>
 <h2>开始绘画</h2>
 <p>让 Photoshop 处于前台，将指针移回画布。以下是默认快捷键，也可以在设置中修改。</p>
@@ -34,6 +35,7 @@
 <tr><td>按住 <strong>S + 鼠标左键</strong> 并垂直移动</td><td>调整笔刷角度。</td></tr>
 </tbody></table></div>
 <p>在 W、E、R、Z、F 面板中，指向需要的槽位后松开快捷键即可选择；也可以左键点击应用。指针回到面板中心再松键，可取消选择。</p>
+<p>在 <strong>设置 → 拾色器 → 通用 → 快捷面板大小 (%)</strong> 中统一调整这些面板的大小，范围为 <strong>50%–200%</strong>。点击 <strong>跟随全局 HUD</strong>，即可恢复随 HUD 大小一起变化。</p>
 <p>如需用 A／D 增减笔刷大小，可在 Photoshop 的键盘快捷键中，将原生 <code>[</code>／<code>]</code> 对应功能改绑到 A／D。</p>
 <p>将当前笔刷存入收藏：先在 Photoshop 选好笔刷，按住 W 打开面板，在目标槽位 <strong>Shift + 中键点击</strong>。清空槽位使用 <strong>Shift + Alt + 中键点击</strong>。</p>
 <p>Toolbar 的前景色或背景色图标支持 <strong>Alt + 左键重置前后景色</strong>、<strong>Shift + 左键调换前后景色</strong>，效果分别与 Photoshop 的 D、X 相同。双击前景色仍可打开 Photoshop 拾色器。</p>
@@ -47,6 +49,7 @@
 <li><strong>切换分组</strong>：按住 Z 时按 <strong>1–3</strong>；按住 W 时按对应的 <strong>1–5</strong>，切换已启用的分组。</li>
 </ul>
 <p>收纳菜单以 Photoshop 实际启用的工具为准。放在 Photoshop“附加工具”中的项目不会自动出现在这里。</p>
+<p>功能选择菜单会适应当前屏幕；内容较多时，将鼠标放在菜单上滚动滚轮，即可查看其余工具和命令。</p>
 <h2>录制与步骤图</h2>
 <ol>
 <li>先保存绘画文档，点击 Toolbar 的 <strong>设置</strong>，选择 <strong>录制与导出</strong>，确认录制保存位置、采样间隔及 <strong>分辨率</strong>。保存路径右侧的文件夹图标可选择保存目录。</li>
@@ -69,10 +72,10 @@
 <ol>
 <li>有新版本时，Toolbar 右侧显示蓝色 <strong>NEW</strong>。点击后选择 <strong>安装更新…</strong> 或 <strong>稍后提醒</strong>。</li>
 <li>选择 <strong>稍后提醒</strong> 后，NEW 消失，重启也不会再次提示这个版本。以后可打开 <strong>设置 → 账户与帮助</strong>，点击 <strong>安装更新…</strong>。</li>
-<li>选择 <strong>安装更新…</strong>，等待下载和校验完成。安装器提示关闭 Photoshop 时，先保存作品并退出 Photoshop，再按提示继续安装。</li>
+<li>选择 <strong>安装更新…</strong>，查看新版本的新增与修复内容，再点击 <strong>下载并安装</strong>。也可选择 <strong>稍后</strong>。下载和校验完成后，安装器提示关闭 Photoshop 时，先保存作品并退出 Photoshop，再按提示继续安装。</li>
 </ol>
 <p>没有可用更新时，NEW 和设置中的版本更新区域都不显示。2.0.0 之后的正常更新保留当前设置与授权，不需要运行旧版清理工具。</p>
-<p>当前版本为 <strong>2.0.2</strong>。此前安装失败的用户可直接下载当前安装包重试，无需先卸载或单独清理。</p>
+<p>本指南对应 <strong>2.0.3</strong>。此前安装失败的用户可直接运行新版安装包重试，无需先卸载或单独清理。更新说明面板从 2.0.3 起提供；旧版升级到 2.0.3 时仍使用旧版更新界面。</p>
 <h2>卸载与重装</h2>
 <p>先退出 Photoshop 和 HUD，再到 Windows 的已安装应用列表中找到 <strong>OP Pop-Up</strong>，选择卸载。正常卸载保留设置、授权数据和录制文件，方便以后重装。</p>
 <p>同版本修复或安装后续版本，直接运行安装程序即可。需要手动清理时，请使用与新版安装包配套的独立清理工具，不要使用历史版本的清理工具。</p>

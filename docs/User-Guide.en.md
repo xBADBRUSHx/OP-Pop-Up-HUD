@@ -1,4 +1,4 @@
-# OP Pop-Up HUD 2.0.2 User Guide
+# OP Pop-Up HUD 2.0.3 User Guide
 
 For Windows 10/11 64-bit and Photoshop 2024 (25.1) or later.
 
@@ -39,6 +39,8 @@ To use A/D for brush size, assign Photoshop's native `[`/`]` commands to A/D in 
 
 To add either action to the command palette, hold **Z**, **Shift + middle-click** a slot, then choose **Edit (编辑) → Reset foreground/background colors (重置前后景色)** or **Exchange foreground/background colors (调换前后景色)**. You can also assign these commands in **Commands & Toolbar (命令与工具栏)** settings. New command-palette groups start empty; existing assignments are preserved.
 
+Brush, Eraser, Smudge, Command and Blend Mode palettes share one size setting in Pop-Up HUD settings. Follow the global HUD size or set a shared 50–200% size.
+
 ## Recording and timers
 
 Set the save folder, sampling interval, and resolution in **Recording & Export (录制与导出)**. Click the Toolbar recording button to start, pause, or resume. **Shift + Alt + left-click** stops recording. Pause or stop before exporting a video. FFmpeg is included; no separate installation is needed.
@@ -49,7 +51,7 @@ Click a timer to start, pause, or resume it. **Hold the left mouse button for ab
 
 ## Update, uninstall, and get help
 
-When an update is available, click **NEW** on the Toolbar. After choosing Later, you can return through **Account & Help (账户与帮助)** to install that update. Wait for the download and verification; when Setup asks, save your work, close Photoshop and HUD, then continue installation. Normal 2.x updates preserve settings and authorization. No previous installer is required.
+When an update is available, click **NEW** on the Toolbar and open the update action in Account & Help. Version 2.0.3 and later show the update notes before you choose **Download and install** or **Later**. Older installed versions retain their existing update interface. After choosing Later, you can return through **Account & Help (账户与帮助)** to install that update. Wait for the download and verification; when Setup asks, save your work, close Photoshop and HUD, then continue installation. Normal 2.x updates preserve settings and authorization. No previous installer is required.
 
 To uninstall, close Photoshop and HUD, then remove **OP Pop-Up** from Windows **Settings → Apps → Installed apps**. Settings, authorization data, and recording files remain for a future reinstall. For same-version repair, run Setup again.
 
