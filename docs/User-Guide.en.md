@@ -1,4 +1,4 @@
-# OP Pop-Up HUD 2.0.3 User Guide
+# OP Pop-Up HUD 2.0.4 User Guide
 
 For Windows 10/11 64-bit and Photoshop 2024 (25.1) or later.
 
@@ -12,7 +12,7 @@ See the [complete Chinese guide](User-Guide.zh-CN.md) for detailed instructions.
 
 The trial runs for seven consecutive days after it is first claimed. Reinstalling or clearing local activation does not restart it. Initial activation and trial registration require an internet connection.
 
-Setup automatically handles old programs and installation remnants. Existing settings and authorization are preserved. Creative Cloud installation or sign-in is not required. There is no need to uninstall first or run the standalone cleaner.
+Run Setup directly for normal updates and same-version repair. Settings, authorization, brushes, and recordings are preserved. Creative Cloud installation or sign-in is not required. If Setup asks you to clean an old installation, run the accompanying standalone cleaner first, then run Setup again.
 
 Keep using the same Windows account during installation and any permission prompt.
 
@@ -39,7 +39,7 @@ To use A/D for brush size, assign Photoshop's native `[`/`]` commands to A/D in 
 
 To add either action to the command palette, hold **Z**, **Shift + middle-click** a slot, then choose **Edit (编辑) → Reset foreground/background colors (重置前后景色)** or **Exchange foreground/background colors (调换前后景色)**. You can also assign these commands in **Commands & Toolbar (命令与工具栏)** settings. New command-palette groups start empty; existing assignments are preserved.
 
-Brush, Eraser, Smudge, Command and Blend Mode palettes share one size setting in Pop-Up HUD settings. Follow the global HUD size or set a shared 50–200% size.
+Brush, Eraser, Smudge, Command and Blend Mode palettes share one size setting in **Picker → General → Quick palette size (%)**. Follow the global HUD size or set a shared 50–200% size.
 
 ## Recording and timers
 
@@ -51,10 +51,10 @@ Click a timer to start, pause, or resume it. **Hold the left mouse button for ab
 
 ## Update, uninstall, and get help
 
-When an update is available, click **NEW** on the Toolbar and open the update action in Account & Help. Version 2.0.3 and later show the update notes before you choose **Download and install** or **Later**. Older installed versions retain their existing update interface. After choosing Later, you can return through **Account & Help (账户与帮助)** to install that update. Wait for the download and verification; when Setup asks, save your work, close Photoshop and HUD, then continue installation. Normal 2.x updates preserve settings and authorization. No previous installer is required.
+When an update is available, click **NEW** on the Toolbar and open the update action in Account & Help. Read the update notes, then choose **Download and install** or **Later**. After choosing Later, you can return through **Account & Help (账户与帮助)** to install that update. Wait for the download and verification; when Setup asks, save your work, close Photoshop and HUD, then continue installation. Normal updates preserve settings and authorization. If Setup asks you to clean an old installation, use the accompanying cleaner before continuing.
 
 To uninstall, close Photoshop and HUD, then remove **OP Pop-Up** from Windows **Settings → Apps → Installed apps**. Settings, authorization data, and recording files remain for a future reinstall. For same-version repair, run Setup again.
 
 For help, generate a problem report from **Account & Help** or a Setup error page. Send the ZIP and a description to **100209743@qq.com**. The report is not sent automatically and does not collect artwork.
 
-The [standalone cleaner](Legacy-Cleanup.zh-CN.md) is for manual maintenance. Normal installation and updates do not require it. It preserves settings, authorization, brushes, and recordings by default.
+Use the [standalone cleaner](Legacy-Cleanup.zh-CN.md) when Setup asks you to clean an old installation or when you choose to remove old programs manually. It preserves settings, authorization, brushes, and recordings by default. Use the cleaner supplied with the current release.

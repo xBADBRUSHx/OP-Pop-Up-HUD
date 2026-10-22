@@ -2,19 +2,19 @@
 
 Photoshop 绘画快捷工具：拾色、笔刷、工具与命令，以及录制、导出和计时器。
 
-**当前版本：2.0.3** · 可试用 7 天
+**当前版本：2.0.4** · 可试用 7 天
 
-[下载安装包](https://github.com/xBADBRUSHx/OP-Pop-Up-HUD/releases/download/v2.0.3/OP-Pop-Up-HUD-Setup-2.0.3.exe) · [独立清理工具](https://github.com/xBADBRUSHx/OP-Pop-Up-HUD/releases/download/v2.0.3/OP-Pop-Up-HUD-Cleanup.zip) · [产品官网](https://badbrush.org/op-popup-hud/) · [更新说明](docs/release-notes-2.0.3.zh-CN.md)
+[下载安装包](https://github.com/xBADBRUSHx/OP-Pop-Up-HUD/releases/download/v2.0.4/OP-Pop-Up-HUD-Setup-2.0.4.exe) · [独立清理工具](https://github.com/xBADBRUSHx/OP-Pop-Up-HUD/releases/download/v2.0.4/OP-Pop-Up-HUD-Cleanup.zip) · [产品官网](https://badbrush.org/op-popup-hud/) · [更新说明](docs/release-notes-2.0.4.zh-CN.md)
 
 ## 安装
 
 1. 保存作品，关闭 Photoshop 和 HUD。
-2. 运行安装包，按提示完成安装，无需先卸载或单独清理。
+2. 运行安装包，按提示完成安装。
 3. 在 Photoshop 的 **增效工具 → OP Pop-Up HUD → 设置** 中激活或领取试用。
 
-安装器会自动整理旧程序和安装残留，保留已有设置与授权。未安装或未登录 Creative Cloud 也可安装。此前安装失败的用户，直接下载新版重试即可。
+安装无需打开或登录 Creative Cloud。正常更新和同版本重装直接运行安装包，保留授权、设置、笔刷和录制作品。
 
-独立清理工具用于主动清理或重置设置，普通安装不需要运行。[清理工具用法](docs/Legacy-Cleanup.zh-CN.md)
+仅当安装器提示需要清理旧安装时，先运行配套的独立清理工具，再安装。普通安装无需先清理。[清理工具用法](docs/Legacy-Cleanup.zh-CN.md)
 
 ## 使用指南
 
