@@ -1,4 +1,4 @@
-# OP Pop-Up HUD 2.0.5 User Guide
+# OP Pop-Up HUD 2.0.6 User Guide
 
 For Windows 10/11 64-bit and Photoshop 2024 (25.1) or later.
 
@@ -65,6 +65,8 @@ Hover over the timer to see its current mode and state. Painting time displays *
 ## Update, uninstall, and get help
 
 When an update is available, click **NEW** on the Toolbar and open the update action in Account & Help. Read the update notes, then choose **Download and install** or **Later**. After choosing Later, you can return through **Account & Help (账户帮助)** to install that update. Wait for the download and verification; when Setup asks, save your work, close Photoshop and HUD, then continue installation. Normal updates preserve settings and authorization. If Setup asks you to clean an old installation, use the accompanying cleaner before continuing.
+
+The update-notes window keeps its action buttons visible while long notes scroll. **Later** is the default action; press **Esc** to cancel without starting installation. If the offered update changes, the old confirmation window closes. Older clients can already receive grouped update text, but the new window layout is provided by version 2.0.6 and appears for subsequent update prompts after upgrading.
 
 To uninstall, close Photoshop and HUD, then remove **OP Pop-Up** from Windows **Settings → Apps → Installed apps**. Settings, authorization data, and recording files remain for a future reinstall. For same-version repair, run Setup again.
 

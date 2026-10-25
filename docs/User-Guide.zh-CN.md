@@ -2,7 +2,7 @@
 
 ![OP Pop-Up HUD](../assets/branding/op-pop-up-white.png)
 
-适用于 Windows 64 位与 Photoshop 2024（25.1）及以上版本。本指南对应 2.0.5。
+适用于 Windows 64 位与 Photoshop 2024（25.1）及以上版本。本指南对应 2.0.6。
 
 界面图解使用示例账户、路径和版本。短视频为无声步骤图解，可暂停或全屏查看。
 
