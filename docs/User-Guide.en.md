@@ -14,6 +14,8 @@ The trial runs for seven consecutive days after it is first claimed. Reinstallin
 
 Run Setup directly for normal updates and same-version repair. Settings, authorization, brushes, and recordings are preserved. Creative Cloud installation or sign-in is not required. If Setup asks you to clean an old installation, run the accompanying standalone cleaner first, then run Setup again.
 
+If Setup reports that Photoshop or HUD is still running, keep Setup open, save your work, close the listed applications, and click **Continue installation (已关闭，继续安装)**. Click **Back (返回)** to return to the ready-to-install page. Setup does not forcibly close applications.
+
 Keep using the same Windows account during installation and any permission prompt.
 
 ## Default controls
@@ -64,7 +66,7 @@ Hover over the timer to see its current mode and state. Painting time displays *
 
 ## Update, uninstall, and get help
 
-When an update is available, click **NEW** on the Toolbar and open the update action in Account & Help. Read the update notes, then choose **Download and install** or **Later**. After choosing Later, you can return through **Account & Help (账户帮助)** to install that update. Wait for the download and verification; when Setup asks, save your work, close Photoshop and HUD, then continue installation. Normal updates preserve settings and authorization. If Setup asks you to clean an old installation, use the accompanying cleaner before continuing.
+When an update is available, click **NEW** on the Toolbar and open the update action in Account & Help. Read the update notes, then choose **Download and install** or **Later**. After choosing Later, you can return through **Account & Help (账户帮助)** to install that update. Wait for the download and verification; when Setup asks, keep Setup open, save your work, close the listed Photoshop and HUD processes, then click **Continue installation (已关闭，继续安装)**. Normal updates preserve settings and authorization. If Setup asks you to clean an old installation, use the accompanying cleaner before continuing.
 
 The update-notes window keeps its action buttons visible while long notes scroll. **Later** is the default action; press **Esc** to cancel without starting installation. If the offered update changes, the old confirmation window closes. Older clients can already receive grouped update text, but the new window layout is provided by version 2.0.6 and appears for subsequent update prompts after upgrading.
 
