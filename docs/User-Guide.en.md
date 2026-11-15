@@ -1,4 +1,4 @@
-# OP Pop-Up HUD 2.0.6 User Guide
+# OP Pop-Up HUD User Guide
 
 For Windows 10/11 64-bit and Photoshop 2024 (25.1) or later.
 
@@ -35,13 +35,15 @@ Keep Photoshop in the foreground and move the pointer over the canvas. Shortcuts
 
 Point to a palette slot and release the shortcut to select it, or left-click the slot. Release over the center to cancel. Use **Shift + middle-click** to assign the current brush to a brush slot and **Shift + Alt + middle-click** to clear it. While holding W or Z, press the corresponding group number to switch groups.
 
-While holding **Q**, press **W / E** to increase / decrease lightness. To adjust hue, assign **Decrease hue (降低色相)** and **Increase hue (增加色相)** in **General & Shortcuts**; both are unassigned by default. Use them while holding Q, or keep them pressed for repeated adjustment. Set the independent lightness and hue steps in **Color Picker (颜色拾色器)** settings. Hue starts at **1°** per step, accepts **1°–360°**, and wraps around the color wheel.
+The quick color picker defaults to **Hold to show**. Choose **Press to toggle** in **Settings → Color Picker → Quick Color Picker** to open it with one press of Q and close it with another press or Esc. It also closes when command search takes focus or you leave Photoshop.
+
+In **Hold to show** mode, hold **Q** and press **W / E** to increase or decrease lightness. Assign **Decrease hue (降低色相)** and **Increase hue (增加色相)** in **General & Shortcuts** to adjust hue while holding Q. Set the independent lightness and hue steps in **Color Picker (颜色拾色器)** settings. Hue starts at **1°** per step, accepts **1°–360°**, and wraps around the color wheel.
 
 To use A/D for brush size, assign Photoshop's native `[`/`]` commands to A/D in Photoshop's keyboard shortcuts.
 
 **Alt + left-click either Toolbar color swatch** resets foreground/background colors, like Photoshop's **D**. **Shift + left-click either swatch** exchanges them, like **X**. Double-click the foreground swatch to open Photoshop's color picker.
 
-To add either action to the command palette, hold **Z**, **Shift + middle-click** a slot, then choose **Edit (编辑) → Reset foreground/background colors (重置前后景色)** or **Exchange foreground/background colors (调换前后景色)**. You can also assign these commands in **Command Palette (命令面板)** settings. New command-palette groups start empty; existing assignments are preserved.
+To assign a slot, hold **Z** and **Shift + middle-click** the slot. Type a tool or command name in the search box, then select a result. The **Edit (编辑)** group includes foreground/background color commands and **Perspective Warp (透视变形)**.
 
 Brush, Eraser, Smudge, Command and Blend Mode palettes share one size setting in **General & Shortcuts → General (通用) → Quick palette size (%) (快捷面板大小)**. Follow the global HUD size or set a shared 50–200% size. In the same section, **Quick palette highlight color (快捷面板高亮颜色)** changes their slot hover fills and selected outlines. Enter a `#RRGGBB` value and confirm; the default is yellow `#FFB219`.
 
@@ -51,6 +53,7 @@ Brush, Eraser, Smudge, Command and Blend Mode palettes share one size setting in
 - Open **…** to bring a tool back. When the Toolbar is empty, drag a tool onto **…** to restore the first item. A short middle-click on a tool in that menu also appends it.
 - In **Toolbar (工具栏) → Toolbar slots (工具栏槽位)**, choose a tool or command in **Add tool or command (添加工具或命令)**, then click **Add Toolbar slot (添加工具栏槽位)**. Existing items are excluded from the add list.
 - In **Toolbar → Brush parameters (笔刷参数)**, enable opacity, flow, hardness and angle circles individually. Disabled circles leave no gaps. The main visibility switch and middle-click on the painting-tool icon retain these choices.
+- Drag an available brush parameter circle to adjust it. Click the opacity or flow circle to set that value to **100%**. Use drag to adjust hardness and angle.
 
 To restore the initial configuration, open **General & Shortcuts** and select **Restore initial settings (恢复初始设置)** at the bottom. After confirmation, interface preferences, shortcuts, brush favorites and tool/command slots are reset. Authorization, artwork, recording projects and custom icon files are retained. Review the confirmation before replacing your custom configuration.
 

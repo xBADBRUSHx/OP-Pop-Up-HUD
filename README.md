@@ -2,15 +2,15 @@
 
 Photoshop 绘画快捷工具：拾色、笔刷、工具与命令，以及录制、导出和计时器。
 
-**当前版本：2.0.9** · 可试用 7 天
+**2.0.10** · 可试用 7 天
 
-[下载安装包](https://github.com/xBADBRUSHx/OP-Pop-Up-HUD/releases/download/v2.0.9/OP-Pop-Up-HUD-Setup-2.0.9.exe) · [独立清理工具](https://github.com/xBADBRUSHx/OP-Pop-Up-HUD/releases/download/v2.0.9/OP-Pop-Up-HUD-Cleanup.zip) · [产品官网](https://badbrush.org/op-popup-hud/) · [更新说明](docs/release-notes-2.0.9.zh-CN.md)
+[下载安装包](https://github.com/xBADBRUSHx/OP-Pop-Up-HUD/releases/download/v2.0.10/OP-Pop-Up-HUD-Setup-2.0.10.exe) · [独立清理工具](https://github.com/xBADBRUSHx/OP-Pop-Up-HUD/releases/download/v2.0.10/OP-Pop-Up-HUD-Cleanup.zip) · [产品官网](https://badbrush.org/op-popup-hud/) · [更新说明](docs/release-notes-2.0.10.zh-CN.md)
 
 ## 安装
 
 1. 保存作品，关闭 Photoshop 和 HUD。
 2. 运行安装包，按提示完成安装。
-3. 在 Photoshop 的 **增效工具 → OP Pop-Up HUD → 设置** 中激活或领取试用。
+3. 在 Photoshop 的 **增效工具 → OP Pop-Up HUD → OP Pop-Up HUD · 设置** 中激活或领取试用。
 
 安装无需打开或登录 Creative Cloud。正常更新和同版本重装直接运行安装包，保留授权、设置、笔刷和录制作品。
 
