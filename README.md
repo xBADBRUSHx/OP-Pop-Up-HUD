@@ -2,9 +2,9 @@
 
 Photoshop 绘画快捷工具：拾色、笔刷、工具与命令，以及录制、导出和计时器。
 
-**2.0.10** · 可试用 7 天
+**2.0.11** · 可试用 7 天
 
-[下载安装包](https://github.com/xBADBRUSHx/OP-Pop-Up-HUD/releases/download/v2.0.10/OP-Pop-Up-HUD-Setup-2.0.10.exe) · [独立清理工具](https://github.com/xBADBRUSHx/OP-Pop-Up-HUD/releases/download/v2.0.10/OP-Pop-Up-HUD-Cleanup.zip) · [产品官网](https://badbrush.org/op-popup-hud/) · [更新说明](docs/release-notes-2.0.10.zh-CN.md)
+[下载安装包](https://github.com/xBADBRUSHx/OP-Pop-Up-HUD/releases/download/v2.0.11/OP-Pop-Up-HUD-Setup-2.0.11.exe) · [独立清理工具](https://github.com/xBADBRUSHx/OP-Pop-Up-HUD/releases/download/v2.0.11/OP-Pop-Up-HUD-Cleanup.zip) · [产品官网](https://badbrush.org/op-popup-hud/) · [更新说明](docs/release-notes-2.0.11.zh-CN.md)
 
 ## 安装
 

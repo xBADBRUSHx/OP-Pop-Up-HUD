@@ -45,6 +45,8 @@ To use A/D for brush size, assign Photoshop's native `[`/`]` commands to A/D in 
 
 To assign a slot, hold **Z** and **Shift + middle-click** the slot. Type a tool or command name in the search box, then select a result. The **Edit (编辑)** group includes foreground/background color commands and **Perspective Warp (透视变形)**.
 
+Search for **Eyedropper** to assign one of Photoshop's five layer sampling scopes. Running the command preserves the active tool, sample size, and sampling ring setting.
+
 Brush, Eraser, Smudge, Command and Blend Mode palettes share one size setting in **General & Shortcuts → General (通用) → Quick palette size (%) (快捷面板大小)**. Follow the global HUD size or set a shared 50–200% size. In the same section, **Quick palette highlight color (快捷面板高亮颜色)** changes their slot hover fills and selected outlines. Enter a `#RRGGBB` value and confirm; the default is yellow `#FFB219`.
 
 ## Arrange the Toolbar
