@@ -20,7 +20,7 @@ Keep using the same Windows account during installation and any permission promp
 
 ## Default controls
 
-Keep Photoshop in the foreground and move the pointer over the canvas. Shortcuts can be changed in **Settings → General & Shortcuts (通用快捷键)**.
+Keep Photoshop in the foreground and move the pointer over the canvas. Shortcuts can be changed in **Settings → General & Shortcuts (通用与快捷键)**.
 
 | Action | Result |
 | --- | --- |
@@ -37,7 +37,7 @@ Point to a palette slot and release the shortcut to select it, or left-click the
 
 The quick color picker defaults to **Hold to show**. Choose **Press to toggle** in **Settings → Color Picker → Quick Color Picker** to open it with one press of Q and close it with another press or Esc. It also closes when command search takes focus or you leave Photoshop.
 
-In **Hold to show** mode, hold **Q** and press **W / E** to increase or decrease lightness. Assign **Decrease hue (降低色相)** and **Increase hue (增加色相)** in **General & Shortcuts** to adjust hue while holding Q. Set the independent lightness and hue steps in **Color Picker (颜色拾色器)** settings. Hue starts at **1°** per step, accepts **1°–360°**, and wraps around the color wheel.
+In **Hold to show** mode, hold **Q** and press **W / E** to increase or decrease lightness. Assign **Decrease hue (降低色相)** and **Increase hue (增加色相)** in **General & Shortcuts** to adjust hue while holding Q. Set the independent lightness and hue steps in **Color Picker (拾色器与滑条)** settings. Hue starts at **1°** per step, accepts **1°–360°**, and wraps around the color wheel.
 
 To use A/D for brush size, assign Photoshop's native `[`/`]` commands to A/D in Photoshop's keyboard shortcuts.
 
@@ -59,9 +59,13 @@ Brush, Eraser, Smudge, Command and Blend Mode palettes share one size setting in
 
 To restore the initial configuration, open **General & Shortcuts** and select **Restore initial settings (恢复初始设置)** at the bottom. After confirmation, interface preferences, shortcuts, brush favorites and tool/command slots are reset. Authorization, artwork, recording projects and custom icon files are retained. Review the confirmation before replacing your custom configuration.
 
+## Experimental layer editing
+
+Open the **Edit (编辑)** group in the command palette. **多图层选区（实验）** moves, scales, or rotates the area inside a Photoshop selection on the chosen pixel layers. **多图层液化（实验）** opens Photoshop’s Liquify window, with **Show Backdrop** available for alignment, and applies the same deformation to the chosen layers after confirmation.
+
 ## Recording and timers
 
-Set the save folder, sampling interval, and resolution in **Recording & Export (录制导出)**. Click the Toolbar recording button to start, pause, or resume. **Shift + Alt + left-click** stops recording. Pause or stop before exporting a video. FFmpeg is included; no separate installation is needed.
+Set the save folder, sampling interval, and resolution in **Recording & Export (录制与导出)**. Click the Toolbar recording button to start, pause, or resume. **Shift + Alt + left-click** stops recording. Pause or stop before exporting a video. FFmpeg is included; no separate installation is needed.
 
 Recording uses 8-bit output. A 16-bit source is converted for recording; 32-bit HDR documents are unsupported. The original document is unchanged.
 
@@ -71,7 +75,7 @@ Hover over the timer to see its current mode and state. Painting time displays *
 
 ## Update, uninstall, and get help
 
-When an update is available, click **NEW** on the Toolbar and open the update action in Account & Help. Read the update notes, then choose **Download and install** or **Later**. After choosing Later, you can return through **Account & Help (账户帮助)** to install that update. Wait for the download and verification; when Setup asks, keep Setup open, save your work, close the listed Photoshop and HUD processes, then click **Continue installation (已关闭，继续安装)**. Normal updates preserve settings and authorization. If Setup asks you to clean an old installation, use the accompanying cleaner before continuing.
+When an update is available, click **NEW** on the Toolbar and open the update action in Account & Help. Read the update notes, then choose **Download and install** or **Later**. After choosing Later, you can return through **Account & Help (账户与帮助)** to install that update. Wait for the download and verification; when Setup asks, keep Setup open, save your work, close the listed Photoshop and HUD processes, then click **Continue installation (已关闭，继续安装)**. Normal updates preserve settings and authorization. If Setup asks you to clean an old installation, use the accompanying cleaner before continuing.
 
 The update-notes window keeps its action buttons visible while long notes scroll. **Later** is the default action; press **Esc** to cancel without starting installation. If the offered update changes, the old confirmation window closes. Older clients can already receive grouped update text, but the new window layout is provided by version 2.0.6 and appears for subsequent update prompts after upgrading.
 
