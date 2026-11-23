@@ -33,6 +33,8 @@ Keep Photoshop in the foreground and move the pointer over the canvas. Shortcuts
 | Hold **S + right mouse button** and move horizontally | Change opacity. |
 | Hold **S + left mouse button** and move vertically | Change brush angle. |
 
+Enable **上下移动调整笔刷大小** under **Settings → Brushes & Gestures → Brush Gestures** to resize the brush by moving up or down while holding S. Up and right increase the size. Down and left decrease it. The option defaults to off.
+
 Point to a palette slot and release the shortcut to select it, or left-click the slot. Release over the center to cancel. Use **Shift + middle-click** to assign the current brush to a brush slot and **Shift + Alt + middle-click** to clear it. While holding W or Z, press the corresponding group number to switch groups.
 
 The quick color picker defaults to **Hold to show**. Choose **Press to toggle** in **Settings → Color Picker → Quick Color Picker** to open it with one press of Q and close it with another press or Esc. It also closes when command search takes focus or you leave Photoshop.
